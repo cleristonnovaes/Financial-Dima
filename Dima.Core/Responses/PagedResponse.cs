@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Dima.Core.Responses;
+namespace Dima.Core.Response;
 
 public class PagedResponse<TData> : Response<TData>
 {
